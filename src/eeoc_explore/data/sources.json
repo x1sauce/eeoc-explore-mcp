@@ -1,0 +1,17 @@
+{
+  "E1c": {
+    "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E1c._Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29%2C_FY_1997_-_FY_2025.xlsx",
+    "sha256": "f4636c2769fcde0cdb59cef5c043ba52d81861fa5433140a59cbec946a8b878b",
+    "sheet": "Table E1c. Charge Receipts and "
+  },
+  "E1a": {
+    "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+    "sha256": "f3044f8db9a135f82c0190685b5b7f4368af8cfa52636e2c1f9b69bd643fa371",
+    "sheet": "Table E1a. Charge Receipts by B"
+  },
+  "E1b": {
+    "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1b._Charge_Receipts_by_State_%28includes_U.S._Territories%29_and_Basis_or_Statute_%28All_Statutes%29_FY_2009_-_FY_2025_suppressed_0.xlsx",
+    "sha256": "bba98930a95e58c8f3f67be36492073f0edaa5698e6ec2250ccfe0aa337b3ecb",
+    "sheet": "Table E1b. Charge Receipts by S"
+  }
+}

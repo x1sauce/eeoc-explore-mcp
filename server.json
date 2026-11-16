@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.YOUR-GITHUB-OWNER/eeoc-explore",
+  "description": "Query public EEOC charge statistics and compare national and state trends.",
+  "repository": {
+    "url": "https://github.com/YOUR-GITHUB-OWNER/YOUR-REPOSITORY",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://your-assigned-host.example/mcp"
+    }
+  ]
+}

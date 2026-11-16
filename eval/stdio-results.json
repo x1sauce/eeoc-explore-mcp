@@ -1,0 +1,171 @@
+[
+  {
+    "tool": "check_national_trend",
+    "result": {
+      "before": {
+        "geography": "US",
+        "fiscal_year": 2024,
+        "metric": "receipts",
+        "unit": "charges",
+        "status": "ok",
+        "value": 88531,
+        "source": {
+          "table": "E1c",
+          "sheet": "Table E1c. Charge Receipts and ",
+          "cell": "AC5",
+          "label": "Receipts",
+          "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E1c._Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29%2C_FY_1997_-_FY_2025.xlsx"
+        }
+      },
+      "after": {
+        "geography": "US",
+        "fiscal_year": 2025,
+        "metric": "receipts",
+        "unit": "charges",
+        "status": "ok",
+        "value": 88201,
+        "source": {
+          "table": "E1c",
+          "sheet": "Table E1c. Charge Receipts and ",
+          "cell": "AD5",
+          "label": "Receipts",
+          "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E1c._Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29%2C_FY_1997_-_FY_2025.xlsx"
+        }
+      },
+      "status": "ok",
+      "delta_count": -330,
+      "percent_change": -0.37,
+      "direction": "decrease",
+      "claim_supported": false,
+      "basis_note": "A charge can allege several bases. A distinct union requires overlap counts."
+    }
+  },
+  {
+    "tool": "compare_state_trends",
+    "result": {
+      "changes": {
+        "CA": {
+          "before": {
+            "geography": "CA",
+            "fiscal_year": 2021,
+            "metric": "retaliation_all",
+            "unit": "charges",
+            "status": "ok",
+            "value": 2158,
+            "source": {
+              "table": "E1b",
+              "sheet": "Table E1b. Charge Receipts by S",
+              "cell": "PU10",
+              "label": "Retaliation All Statutes",
+              "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1b._Charge_Receipts_by_State_%28includes_U.S._Territories%29_and_Basis_or_Statute_%28All_Statutes%29_FY_2009_-_FY_2025_suppressed_0.xlsx"
+            }
+          },
+          "after": {
+            "geography": "CA",
+            "fiscal_year": 2025,
+            "metric": "retaliation_all",
+            "unit": "charges",
+            "status": "ok",
+            "value": 2926,
+            "source": {
+              "table": "E1b",
+              "sheet": "Table E1b. Charge Receipts by S",
+              "cell": "VK10",
+              "label": "Retaliation All Statutes",
+              "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1b._Charge_Receipts_by_State_%28includes_U.S._Territories%29_and_Basis_or_Statute_%28All_Statutes%29_FY_2009_-_FY_2025_suppressed_0.xlsx"
+            }
+          },
+          "status": "ok",
+          "delta_count": 768,
+          "percent_change": 35.59,
+          "direction": "increase"
+        },
+        "TX": {
+          "before": {
+            "geography": "TX",
+            "fiscal_year": 2021,
+            "metric": "retaliation_all",
+            "unit": "charges",
+            "status": "ok",
+            "value": 3768,
+            "source": {
+              "table": "E1b",
+              "sheet": "Table E1b. Charge Receipts by S",
+              "cell": "PU55",
+              "label": "Retaliation All Statutes",
+              "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1b._Charge_Receipts_by_State_%28includes_U.S._Territories%29_and_Basis_or_Statute_%28All_Statutes%29_FY_2009_-_FY_2025_suppressed_0.xlsx"
+            }
+          },
+          "after": {
+            "geography": "TX",
+            "fiscal_year": 2025,
+            "metric": "retaliation_all",
+            "unit": "charges",
+            "status": "ok",
+            "value": 5802,
+            "source": {
+              "table": "E1b",
+              "sheet": "Table E1b. Charge Receipts by S",
+              "cell": "VK55",
+              "label": "Retaliation All Statutes",
+              "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1b._Charge_Receipts_by_State_%28includes_U.S._Territories%29_and_Basis_or_Statute_%28All_Statutes%29_FY_2009_-_FY_2025_suppressed_0.xlsx"
+            }
+          },
+          "status": "ok",
+          "delta_count": 2034,
+          "percent_change": 53.98,
+          "direction": "increase"
+        }
+      },
+      "note": "Counts measure charges filed. Population and workforce size affect comparisons.",
+      "status": "ok",
+      "larger_count_change": "TX",
+      "larger_percent_change": "TX"
+    }
+  },
+  {
+    "tool": "explain_charge_outcomes",
+    "result": {
+      "receipts": {
+        "geography": "US",
+        "fiscal_year": 2025,
+        "metric": "receipts",
+        "unit": "charges",
+        "status": "ok",
+        "value": 88201,
+        "source": {
+          "table": "E1c",
+          "sheet": "Table E1c. Charge Receipts and ",
+          "cell": "AD5",
+          "label": "Receipts",
+          "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E1c._Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29%2C_FY_1997_-_FY_2025.xlsx"
+        }
+      },
+      "resolutions": {
+        "geography": "US",
+        "fiscal_year": 2025,
+        "metric": "resolutions",
+        "unit": "charges",
+        "status": "ok",
+        "value": 90744,
+        "source": {
+          "table": "E1c",
+          "sheet": "Table E1c. Charge Receipts and ",
+          "cell": "AD6",
+          "label": "Resolutions",
+          "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E1c._Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29%2C_FY_1997_-_FY_2025.xlsx"
+        }
+      },
+      "explanation": "Receipts count new charges. Resolutions count charges closed through the administrative process across all outcome types. Charges resolved this year can include earlier pending charges, current receipts and transfers from fair employment practices agencies.",
+      "glossary_url": "https://www.eeoc.gov/data/definitions-terms",
+      "source_difference": {
+        "annual_report_count": 90743,
+        "annual_report_url": "https://www.eeoc.gov/sites/default/files/2026-04/EEOC_APR_FY2025_APP_FY2027_508.pdf",
+        "workbook_count": 90744,
+        "note": "This tool uses E1c. The publications differ by one. The reason is unverified."
+      },
+      "status": "ok",
+      "resolutions_minus_receipts": 2543
+    }
+  }
+]
